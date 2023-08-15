@@ -1,0 +1,24 @@
+getgenv().xiaobai = "作者你的小天使" --> 不要改, 改了会被踢
+(function(define)
+	repeat
+		game:GetService("RunService").Heartbeat:wait()
+	until game:IsLoaded();
+wait(0.3)
+	if (getgenv().xiaobai ~= "作者你的小天使" or not getgenv().zhanghuihuihui) and not isDev() then
+			plr:Kick("请不要修改代码");
+			task.wait(.01);
+       -- while true do end
+		end
+		getgenv().xiaobai = nil;
+	end
+	local functions = {
+		checkModify
+	};
+	table.foreach(functions, function(_, v)
+		pcall(v);
+	end)
+
+ ---作者，你的小天使 
+ --2改请标明出处
+ --未经允许将会追究你的法律责任
+ 
